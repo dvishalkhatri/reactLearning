@@ -48,7 +48,7 @@ const Book = ({ imgVar, title, author, getBook, id }) => {
   );
 }; */
 
-//Prop drilling -> Values can be passed from parent to the chilc
+//Prop drilling -> Values can be passed from parent to the child
 /* const BookList = () => {
   const someValue = 'shakeAndBake';
   const displayValue = () => {
