@@ -1,6 +1,6 @@
-import Starter from './tutorial/02-useEffect/starter/05-cleanup-function';
-import Final from './tutorial/02-useEffect/final/05-cleanup-function';
-import Example from './tutorial/04-project-structure/starter/Example';
+import Starter from './tutorial/05-leverage-javascript/starter/List';
+import Final from './tutorial/05-leverage-javascript/final/List';
+// import Example from './tutorial/04-project-structure/starter/Example';
 // import Navbar from './tutorial/04-project-structure/starter/Navbar';
 // import { Home, About } from './tutorial/04-project-structure/starter/Pages';
 
@@ -10,7 +10,7 @@ function App() {
       {/* <Navbar /> */}
       {/* <Home /> */}
       {/* <About /> */}
-      <Example />
+      {/* <Example /> */}
       <Starter />
       {/* <Final /> */}
     </div>
