@@ -282,7 +282,7 @@ main {
   right: 0;
   padding: 0.5rem;
   color: var(--white);
-  letter-spacing: var(--letterSpacing);
+  letter-spacing: 2px;
   background: var(--primary-500);
   border-top-right-radius: var(--borderRadius);
 }
