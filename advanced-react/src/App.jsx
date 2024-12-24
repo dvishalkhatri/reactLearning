@@ -1,5 +1,5 @@
-import Starter from './tutorial/08-custom-hooks/starter/02-fetch-data';
-import Final from './tutorial/08-custom-hooks/final/02-fetch-data';
+import Starter from './tutorial/09-context-api/starter/context/Navbar';
+import Final from './tutorial/09-context-api/final/context/Navbar';
 // import Example from './tutorial/04-project-structure/starter/Example';
 // import Navbar from './tutorial/04-project-structure/starter/Navbar';
 // import { Home, About } from './tutorial/04-project-structure/starter/Pages';
