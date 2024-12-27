@@ -1,10 +1,12 @@
 import Person from './Person';
 
-const List = ({ people }) => {
+const List = ({ people, removePerson }) => {
   return (
     <section>
       {people.map((person) => {
-        return <Person {...person} key={person.id} />;
+        return (
+          <Person {...person} removePerson={removePerson} key={person.id} />
+        );
       })}
     </section>
   );

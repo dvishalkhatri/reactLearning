@@ -304,3 +304,9 @@ main {
 .person p {
   color: var(--grey-500);
 }
+
+.person > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
