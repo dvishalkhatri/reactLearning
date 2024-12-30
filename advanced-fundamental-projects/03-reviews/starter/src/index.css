@@ -269,14 +269,15 @@ main {
   transition: var(--transition);
   text-align: center;
 }
+
 .review:hover {
   box-shadow: var(--shadow-3);
 }
 
 .img-container {
   position: relative;
-  width: 150px;
   height: 150px;
+  width: 150px;
   border-radius: 50%;
   margin: 0 auto;
   margin-bottom: 1.5rem;
@@ -315,9 +316,11 @@ main {
   top: -0.25rem;
   right: -0.5rem;
 }
+
 .author {
   margin-bottom: 0.5rem;
 }
+
 .job {
   text-transform: uppercase;
   color: var(--primary-500);
@@ -326,15 +329,16 @@ main {
   margin-bottom: 0.75rem;
   letter-spacing: var(--letterSpacing);
 }
-
 .info {
   margin-bottom: 0.75rem;
   line-height: 1.5;
   color: var(--grey-600);
 }
+
 .btn-container {
   margin-bottom: 1rem;
 }
+
 .prev-btn,
 .next-btn {
   color: var(--primary-700);
@@ -345,6 +349,7 @@ main {
   transition: var(--transition);
   cursor: pointer;
 }
+
 .prev-btn:hover,
 .next-btn:hover {
   color: var(--primary-500);

@@ -5,23 +5,28 @@ const App = () => {
   const [index, setIndex] = useState(0);
   const { id, name, job, image, text } = reviews[index];
 
+  const checkNumber = (number) => {
+    if (number === reviews.length) return 0;
+    if (number < 0) return reviews.length - 1;
+    return number;
+  };
+
   const nextPerson = () => {
     setIndex((currentIndex) => {
-      let newIndex = (currentIndex + 1) % reviews.length;
-      return newIndex;
+      let newIndex = currentIndex + 1;
+      return checkNumber(newIndex);
     });
   };
   const prevPerson = () => {
     setIndex((currentIndex) => {
-      let newIndex = (currentIndex - 1 + reviews.length) % reviews.length;
-      return newIndex;
+      let newIndex = currentIndex - 1;
+      return checkNumber(newIndex);
     });
   };
   const randomPerson = () => {
     let randomNumber = Math.floor(Math.random() * reviews.length);
     if (randomNumber === index) randomNumber = index + 1;
-    const newIndex = randomNumber % reviews.length;
-    setIndex(newIndex);
+    setIndex(checkNumber(randomNumber));
   };
   return (
     <main>
