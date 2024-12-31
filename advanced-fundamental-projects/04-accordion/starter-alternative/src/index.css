@@ -258,7 +258,6 @@ ul {
 body {
   background: var(--primary-100);
 }
-
 main {
   min-height: 100vh;
   /* using flex because of better browser support */
@@ -276,13 +275,11 @@ main {
   max-width: 800px;
   box-shadow: var(--shadow-3);
 }
-
 .container h1 {
   text-align: center;
   margin-bottom: 3rem;
   color: var(--grey-700);
 }
-
 .question {
   padding: 1rem 1.5rem;
   border: 2px solid var(--grey-200);
@@ -297,20 +294,17 @@ main {
   line-height: 2;
   margin-top: 1rem;
 }
-
 .question header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
-
 .question h5 {
   font-weight: 500;
   line-height: 1.5;
   color: var(--grey-700);
 }
-
 .question-btn {
   background: transparent;
   border-color: transparent;
